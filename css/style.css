@@ -47,7 +47,7 @@ p {
   border-radius: 5px;
 }
 
-#lede {
+p {
   margin-left: 30%;
   margin-right: 30%
 }
@@ -99,4 +99,21 @@ p {
 
 .spacer {
   height: 100px;
+}
+
+.em {
+  display: inline;
+  margin-bottom: -3.5px;
+
+}
+
+#badges {
+  display: inline-flex;
+  flex-direction: row;
+  img {
+    max-height: 64px;
+  }
+  figcaption {
+    font-size: 12px;
+  }
 }

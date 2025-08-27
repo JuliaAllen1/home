@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 html, body {
-  /* background-color: #f2d5cf; */
-  background-color: white;
-  background: linear-gradient(pink -5%, #fefefe 50%);
+  background-color: blue;
   text-align: center;
-  font-family: "Segoe UI", monospace;
   height: 100%;
   margin: 0px;
   padding: 0px;
+}
+
+#main-window {
+  background: linear-gradient(pink -5%, #fefefe 50%);
+};
+
+.window {
+  z-index: 0;
 }
 
 hr {

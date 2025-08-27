@@ -6,52 +6,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>jules ^-^</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/7.css">
 
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="icon.png">
 </head>
 
 <body>
-  <h1 id="name">
-  Welcome to <br> <b>Julia's</b> Gay Homepage</h1>
-  <div class=spacer></div>
+<div class="window glass active">
+    <div class="title-bar">
+      <div class="title-bar-text"> gay homepage thing </div>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+  <div id="main-window" class="window-body has-space">
+    <h1 id="name">
+      Welcome to <br> <b>Julia's</b> Gay Homepage
+    </h1>
 
-  <div id="puppy">
-    <span class="gloss"></span>
-    <img src="img/puppy_stick.png" alt="cartoon dog with stick in mouth,
-    smiling, eyes closed, presenting you with the stick" >
+    <div id="puppy">
+      <span class="gloss"></span>
+      <img src="img/puppy_stick.png" alt="cartoon dog with stick in mouth,
+      smiling, eyes closed, presenting you with the stick" >
+    </div>
+    <p id="lede">
+      Hello! I'm Julia (she/her, it/its), and welcome to my dumb
+      little homepage thing! <img class="em" src="emoji/smile.png" alt=":)"> I do a bunch of stuff, most of it quite
+      poorly. Sometimes i make conlangs, yet to publish any though.
+      Generally quite interested in linguistics and compsci, though
+      again, with very little to show for it in general.
+      I've a few active projects, most notably my recent attempt at
+      building a <a href="https://github.com/JuliaAllen1/oxidizedbb">fast, lightweight, server-side rendered forum
+      system in Rust</a>! Not very much to show for it. Might put together some devlogs, might not. check the blogs page
+      to see if i have!
+    </p>
+    <p>
+      In the meantime, check out what's below! All websites below warrant a visit, in my opinion.
+    </p>
+
+    <div id="badges">
+      <figure>
+      <a href="https://faggotville.com"><img src="img/wlmfriend.ico" alt="friend april's website!"></a>
+      <figcaption>My friend<br>April's place!</figcaption>
+      </figure>
+    </div>
+ 
+    <div id="nav">
+      <a href="index.html">Home</a>
+        &nbsp; <a href="https://github.com/JuliaAllen1">GitHub</a>
+        &nbsp; <a href="contact.html">Contact</a>
+        &nbsp; <a href="bloghub.html">Blog</a>
+    </div>
   </div>
-  <p id="lede">
-  Hello! I'm Julia (she/her, it/its), and welcome to my dumb
-    little homepage thing! <img class="em" src="emoji/smile.png"> I do a bunch of stuff, most of it quite
-    poorly. Sometimes i make conlangs, yet to publish any though.
-    Generally quite interested in linguistics and compsci, though
-    again, with very little to show for it in general.
-    I've a few active projects, most notably my recent attempt at
-    building a <a href="https://github.com/JuliaAllen1/oxidizedbb">fast, lightweight, server-side rendered forum
-    system in Rust</a>! Not very much to show for it. Might put together some devlogs, might not. check the blogs page
-    to see if i have!
-  </p>
-
-  <p>
-   In the meantime, check out what's below! All websites below warrant a visit, in my opinion.
-  </p>
-
-
-  <div id="badges">
-    <figure>
-    <a href="https://faggotville.com"><img src="img/wlmfriend.ico" alt="friend april's website!"></a>
-    <figcaption>My friend<br>April's place!</figcaption>
-    </figure>
-  </div>
-
-  
-  <div id="nav">
-    <a href="index.html">Home</a>
-      &nbsp <a href="https://github.com/JuliaAllen1">GitHub</a>
-      &nbsp <a href="contact.html">Contact</a>
-      &nbsp <a href="bloghub.html">Blog</a>
-  </div>
+</div>
 </body>
 
 </html>

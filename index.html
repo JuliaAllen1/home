@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>jules ^-^</title>
-  
+
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/7.css">
   
@@ -14,18 +14,18 @@
 </head>
 
 <body>
-<div class="window glass active resize-drag">
+<div class="window glass active resize-drag" id="window-home">
     <div class="title-bar draggable">
       <div class="title-bar-text"> gay homepage thing </div>
       <div class="title-bar-controls">
-        <button aria-label="Minimize"></button>
-        <button aria-label="Maximize"></button>
-        <button aria-label="Close"></button>
+        <button aria-label="Minimize" id="home-min"></button>
+        <button aria-label="Maximize" id="home-max"></button>
+        <button aria-label="Close" id="home-close"></button>
       </div>
     </div>
   <div id="main-window" class="window-body has-space">
     <h1 id="name">
-      Welcome to <br> <b>Julia's</b> Gay Homepage
+      Welcome to <br> <b>Julia's</b> Homepage
     </h1>
 
     <div id="puppy">
@@ -34,18 +34,16 @@
       smiling, eyes closed, presenting you with the stick" >
     </div>
     <p id="lede">
-      Hello! I'm Julia (she/her, it/its), and welcome to my dumb
-      little homepage thing! <img class="em" src="emoji/smile.png" alt=":)"> I do a bunch of stuff, most of it quite
-      poorly. Sometimes i make conlangs, yet to publish any though.
-      Generally quite interested in linguistics and compsci, though
+      hello! i'm julia (she/her, it/its), this is my homepage <img class="em" src="emoji/smile.png" alt=":)"> i do stuff, most of it quite
+      poorly. sometimes i make conlangs, yet to publish any though.
+      interested in linguistics and compsci, though
       again, with very little to show for it in general.
-      I've a few active projects, most notably my recent attempt at
+      i've a few active projects, most notably my recent attempt at
       building a <a href="https://github.com/JuliaAllen1/oxidizedbb">fast, lightweight, server-side rendered forum
-      system in Rust</a>! Not very much to show for it. Might put together some devlogs, might not. check the blogs page
-      to see if i have!
+      system in Rust</a>! not much to show for it yet though  <img class="em" src="emoji/tongue_smile.gif" alt=":p">
     </p>
     <p>
-      In the meantime, check out what's below! All websites below warrant a visit, in my opinion.
+      cool stuff below! check it out if you want! it's all very cool  <img class="em" src="emoji/74_74.gif" alt="<:o)">
     </p>
 
     <div id="badges">
@@ -54,17 +52,18 @@
       <figcaption>My friend<br>April's place!</figcaption>
       </figure>
     </div>
-
-    <div id="nav">
-      <a href="index.html">Home</a>
-        &nbsp; <a href="https://github.com/JuliaAllen1">GitHub</a>
-        &nbsp; <a href="contact.html">Contact</a>
-        &nbsp; <a href="bloghub.html">Blog</a>
-    </div>
+    
   </div>
 </div>
+
+<footer id="taskbar">
+  <img id="tb-home" class="tb-icon active open" src="img/home.ico" alt="home taskbar button">
+  <img id="tb-contact" class="tb-icon" src="img/wlmfriend.ico" alt="friend april's website!">
+  <img id="tb-github" class="tb-icon" src="img/wlmfriend.ico" alt="friend april's website!">
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
 <script src="./js/interaction.js"></script>
+<script src="./js/buttons.js"></script>
 
 </body>
 

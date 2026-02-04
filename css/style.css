@@ -11,6 +11,10 @@ html, body {
 #main-window {
   background: linear-gradient(pink -5%, #fefefe 50%);
   overflow: auto;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 100%;
+  max-height: 100%;
 
 };
 
